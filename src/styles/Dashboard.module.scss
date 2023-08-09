@@ -1,0 +1,13 @@
+#dashboard {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 80vw;
+}

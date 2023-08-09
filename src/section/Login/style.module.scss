@@ -1,0 +1,22 @@
+.container {  
+  display: flex;
+  border-color: var(--english-violet);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.title {
+  font-style: bold;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}

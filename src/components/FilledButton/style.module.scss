@@ -1,0 +1,22 @@
+.container {
+    background: #FFFFFF;
+    opacity: 0.5;
+    color: black;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0px 18px 0px 18px;
+    font-size: 1em;
+}
+
+.container:hover {
+    filter: brightness(90%);
+    transition: filter 500ms linear;
+}
+
+.darkGreen {
+    background-color: var(--dark-green);
+}

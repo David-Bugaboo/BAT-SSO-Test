@@ -1,0 +1,53 @@
+#reports {
+  display: flex;
+  z-index: 0;
+  .container {
+    flex: 1;
+    padding: 5%;
+    .head {
+      display: flex;
+      justify-content: space-between;
+      label {
+        width: 40%;
+      }
+
+      button {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+.containerReportForm {
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    justify-content: space-around; 
+    & > div {
+      background-color: var(--gray-background);
+      display: flex;
+      flex-direction: column;
+      min-width: 30%;
+      width: 100px;
+      max-height: 800px;
+      height: 800px;
+      overflow: scroll;
+      padding: 0px 2% 2% 2%;
+      border-radius: 15px;
+      -webkit-box-shadow: 6px 9px 14px 10px rgba(0, 0, 0, 0.19);
+      box-shadow: 6px 9px 14px 10px rgba(0, 0, 0, 0.19);
+
+      h1 {
+        text-align: center;
+      }
+
+      & > div {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  }
+
+
